@@ -50,12 +50,14 @@ def index(request):
     return render(request, 'blog/index.html', context)
 
 
+check_dict = {post['id']: post for post in posts}
+
+
 def post_detail(request, post_id):
-    check_dict = {post['id']: post for post in posts}
-    if post_id in check_dict:
-        context = {'post': check_dict[post_id]}
-        return render(request, 'blog/detail.html', context)
-    raise Http404(f'Пост {post_id} отсутствует')
+    if post_id not in check_dict:
+        raise Http404(f'Пост {post_id} отсутствует')
+    context = {'post': check_dict[post_id]}
+    return render(request, 'blog/detail.html', context)
 
 
 def category_posts(request, category_slug):
