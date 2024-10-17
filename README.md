@@ -1,18 +1,19 @@
-# Проект Blogicum
-Реализация социальной сети Blogicum.
+# **Project Blogicum**  
+**Implementation of the Blogicum Social Network.**
 
-Проект Blogicum является учебным и направлен на приобретение понимания реализации веб-приложения с использованием фреймворка Django. Он включает в себя следующие основные возможности:
+The Blogicum project is an educational initiative aimed at gaining an understanding of implementing web applications using the Django framework. It includes the following main features:
 
-Чтение публикаций: Пользователи могут просматривать публикации, созданные другими пользователями.
+- **Reading Posts:** Users can view posts created by other users.
 
-Проект реализован с использованием следующих основных компонентов Django:
+The project is implemented using the following core components of Django:
 
-- Развёртывание Django проекта: Включает в себя настройку проекта и его запуск на сервере.
-- Установка приложений и их регистрация: Django приложения добавляют функциональность к проекту, их установка и регистрация обеспечивают доступ к их функционалу.
-- Настройка локализации и часового пояса: Устанавливает язык и часовой пояс для приложения.
-- Описание маршрутов URL: Определяет URL-адреса, по которым пользователи могут получить доступ к различным страницам приложения.
-- Создание HTML шаблонов: Шаблоны определяют внешний вид страниц приложения.
-- Подключение CSS файлов и статических материалов: Обеспечивает стилизацию и добавление изображений к страницам приложения.
-- View-функции: Отвечают за обработку запросов пользователей и возвращение соответствующих ответов.
-- Интегрированный сервер Django: Позволяет локально запускать приложение для тестирования и разработки.
-- Важно отметить, что проект описывает базовые функциональности и основы разработки веб-приложений с использованием Django.
+- **Deployment of the Django Project:** Involves setting up the project and running it on a server.
+- **Installation and Registration of Applications:** Django applications add functionality to the project; their installation and registration provide access to their features.
+- **Localization and Time Zone Settings:** Sets the language and time zone for the application.
+- **URL Routing Description:** Defines the URLs through which users can access various pages of the application.
+- **Creation of HTML Templates:** Templates determine the appearance of the application's pages.
+- **Connecting CSS Files and Static Assets:** Ensures styling and the addition of images to the application's pages.
+- **View Functions:** Responsible for handling user requests and returning appropriate responses.
+- **Integrated Django Server:** Allows for the local running of the application for testing and development.
+
+It's important to note that the project describes basic functionalities and the fundamentals of web application development using Django.
